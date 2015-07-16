@@ -10,7 +10,7 @@ namespace MvcMovie.Controllers
 
         public string Index()
         {
-            return "This is my <b>default</b> action...";
+            return "<p style='color:#00FF00'>This is my <b>default</b> action...</p>";
         }
 
         // 
