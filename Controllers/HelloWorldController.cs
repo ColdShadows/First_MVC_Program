@@ -8,9 +8,9 @@ namespace MvcMovie.Controllers
         // 
         // GET: /HelloWorld/ 
 
-        public string Index()
+        public ActionResult Index()
         {
-            return "<p style='color:#00FF00'>This is my <b>default</b> action...</p>";
+            return View();
         }
 
         // 

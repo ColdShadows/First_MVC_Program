@@ -23,6 +23,11 @@ namespace First_MVC_Program
                 name: "Hello",
                 url: "{controller}/{action}/{name}/{id}"
             );
+            routes.MapRoute(
+                name: "Stuff",
+                url: "{controller}/{action}/{name}/{id}",
+                defaults: new { controller = "Home", action = "Index", name = UrlParameter.Optional, id = UrlParameter.Optional}
+            );
         }
     }
 }
